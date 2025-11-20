@@ -3,66 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Mini Hackathon</title>
+    <title>Trio Portfolio | Mini Hackathon</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
     <header class="header">
-        <h1 class="logo">My Portfolio</h1>
+        <h1 class="logo">Trio Portfolio</h1>
         <nav class="nav">
+            <a href="#hero">Home</a>
             <a href="#about">About</a>
+            <a href="#team">Team</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="hero-text">
-            <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
-            <p>Aspiring Web Developer & Designer</p>
-            <a href="#projects" class="btn">View My Work</a>
+            <h2>
+                Hello, we are 
+                <span class="highlight">Kamaldeep</span>, 
+                <span class="highlight">Jaskarandeep</span> & 
+                <span class="highlight">Harshdeep</span>
+            </h2>
+            <p>Student Web Developers | Mini Hackathon - Responsive CSS Webpage</p>
+            <a href="#projects" class="btn">View Our Work</a>
+
+            <div class="hero-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Flexbox</span>
+                <span class="tag">Grid</span>
+                <span class="tag">Responsive Design</span>
+            </div>
         </div>
+
         <div class="hero-img">
-            <img src="images/profile.jpg" alt="Profile Photo">
+            <!-- You can replace this image with your own team image -->
+            <img src="images/profile.jpg" alt="Team Profile Photo">
         </div>
     </section>
 
+    <!-- ABOUT SECTION: Kamaldeep Kaur -->
+    <!-- Kamaldeep's area: About section content -->
     <section id="about" class="about">
-        <h2>About Me</h2>
+        <h2>About Our Project</h2>
         <p>
-            I am a passionate developer who enjoys building beautiful and responsive websites.
-            I love working with HTML, CSS, and modern web design techniques.
+            This responsive portfolio webpage was created as part of the 
+            <strong>Module 02 Mini Hackathon</strong>. 
+            Our goal was to build a clean, modern layout using only 
+            <strong>HTML</strong> and <strong>CSS</strong>, while applying concepts such as the box model,
+            flexbox, grid, and responsive design.
+        </p>
+        <p>
+            The page showcases our teamwork and individual strengths. 
+            Each group member was responsible for specific sections and styling areas, 
+            which are clearly identified below in the Team Contributions section.
         </p>
     </section>
+    <!-- TEAM SECTION: All Members -->
+    <!-- All members' area: Team section content -->
+    <section id="team" class="team">
+        <h2>Team Contributions</h2>
+        <p class="team-intro">
+            Each section below highlights the main responsibilities and work area 
+            of each group member in this project.
+        </p>
 
+        <div class="team-grid">
+            <!-- Kamaldeep's Card -->
+            <!-- Kamaldeep's area: edit this card content -->
+            <article class="team-card">
+                <h3>Kamaldeep Kaur</h3>
+                <p class="role">HTML Structure & About Section</p>
+                <p>
+                    Kamaldeep focused on the overall HTML structure of the page.
+                    She set up the main sections such as the header, hero, about, and footer,
+                    ensuring semantic and well-organized markup.
+                </p>
+                <ul>
+                    <li>Created the main page layout using semantic HTML elements.</li>
+                    <li>Wrote the content for the <strong>About Our Project</strong> section.</li>
+                    <li>Helped organize navigation links and basic page structure.</li>
+                </ul>
+            </article>
+
+            <!-- Jaskarandeep's Card -->
+            <!-- Jaskarandeep's area: edit this card content -->
+            <article class="team-card">
+                <h3>Jaskarandeep Kaur</h3>
+                <p class="role">Responsive Layout & Projects Section</p>
+                <p>
+                    Jaskarandeep was responsible for designing the responsive layout 
+                    and structuring the projects section. She ensured the layout adapts 
+                    gracefully across different screen sizes.
+                </p>
+                <ul>
+                    <li>Worked on the <strong>Projects</strong> section layout and structure.</li>
+                    <li>Planned how the grid should behave on mobile, tablet, and desktop.</li>
+                    <li>Contributed ideas for the visual arrangement of project cards.</li>
+                </ul>
+            </article>
+
+            <!-- Harshdeep's Card -->
+            <!-- Harshdeep's area: edit this card content -->
+            <article class="team-card">
+                <h3>Harshdeep Singh</h3>
+                <p class="role">Styling, Interactivity & Contact Section</p>
+                <p>
+                    Harshdeep focused on detailed styling, hover effects, and the contact area.
+                    He added interactive touches using CSS pseudo-classes and helped refine 
+                    the overall visual design.
+                </p>
+                <ul>
+                    <li>Styled the buttons, tags, and hover states across the page.</li>
+                    <li>Designed and wrote the <strong>Contact</strong> section.</li>
+                    <li>Worked with colors, spacing, and typography to improve readability.</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- Main owner: Jaskarandeep -->
+    <!-- Jaskarandeep's area: Projects section content -->
     <section id="projects" class="projects">
-        <h2>My Projects</h2>
+        <h2>Our Project Showcase</h2>
+        <p>
+            Below are example project cards that represent the kind of layouts we can build
+            using only HTML and CSS. These are sample descriptions used to demonstrate
+            flexbox, grid, image styling, and responsive cards.
+        </p>
 
         <div class="project-grid">
             <div class="project-card">
                 <img src="images/project1.jpg" alt="Project 1">
-                <h3>Project One</h3>
-                <p>A responsive webpage built using flexbox and grid.</p>
+                <h3>Responsive Portfolio Page</h3>
+                <p>
+                    A modern one-page layout using flexbox for the hero section and 
+                    grid for project cards. Designed to adapt smoothly on phones, tablets, and desktops.
+                </p>
             </div>
 
             <div class="project-card">
                 <img src="images/project2.jpg" alt="Project 2">
-                <h3>Project Two</h3>
-                <p>A clean portfolio layout using modern CSS techniques.</p>
+                <h3>Product Landing Page</h3>
+                <p>
+                    A simple landing page that highlights a product, with a focus on clean typography, 
+                    spacing, and call-to-action sections.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project3.jpg" alt="Project 3">
+                <h3>Small Business Website</h3>
+                <p>
+                    A layout suitable for a local restaurant or shop, featuring an about section, 
+                    services area, and contact information section.
+                </p>
             </div>
         </div>
     </section>
 
+    <!-- Main owner: Harshdeep -->
+    <!-- Harshdeep's area: Contact section content -->
     <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: yourname@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <h2>Contact Us</h2>
+        <p>
+            This section demonstrates a simple contact area designed with basic styling.
+            It shows how content can be grouped and aligned using CSS.
+        </p>
+
+        <div class="contact-details">
+            <p><strong>Team Name:</strong> Trio Portfolio</p>
+            <p><strong>Members:</strong> Kamaldeep Kaur, Jaskarandeep Kaur &amp; Harshdeep Singh</p>
+            <p><strong>Email (example):</strong> trio.portfolio@example.com</p>
+        </div>
     </section>
 
+    <!-- FOOTER (Shared) -->
     <footer class="footer">
-        <p>© 2025 Your Name. All Rights Reserved.</p>
+        <p>© 2025 Trio Portfolio - Mini Hackathon Project. All Rights Reserved.</p>
     </footer>
 
 </body>
