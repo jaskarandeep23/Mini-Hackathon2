@@ -66,6 +66,13 @@ p {
     border-radius: 15px;
 }
 
+/* Kamaldeep: Added improved hover effect for navigation links */
+.nav a:hover {
+    background: #1f2937;
+    color: #38bdf8;
+    transition: 0.2s ease-in-out;
+}
+
 /* Hero layout - Kamaldeep */
 .hero {
     display: flex;
