@@ -63,6 +63,18 @@ The webpage showcases the collaborative work of three team members and includes 
 
 ---
 
+## Collaboration Workflow
+
+Our group collaborated using GitHub.  
+Each member worked on their assigned sections, pushed updates regularly,  
+and reviewed each other’s work to keep the project consistent.
+
+We followed this basic workflow:
+1. Update individual section  
+2. Commit with meaningful messages  
+3. Push work and notify the group  
+
+---
 ## Tools & Technologies
 
 - **HTML5** for content structure  
