@@ -159,6 +159,12 @@ p {
     max-width: 700px;
 }
 
+/* Kamaldeep: Added extra spacing for About section readability */
+.about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 /* Team section - Jaskarandeep */
 .team {
     background: #020617;
